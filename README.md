@@ -30,3 +30,90 @@ The application also includes an OTP-based password recovery system, profile man
 - 🛡 Secure Login System
 
 ---
+
+## 🚀 Features
+
+### 👨‍🎓 Student Module
+- Student Registration & Login
+- Anonymous Faculty Feedback Submission
+- View Faculty Directory
+- Feedback History
+- Update Student Profile
+- Upload Profile Photo
+- Forgot Password using OTP
+
+### 👨‍🏫 Faculty Module
+- Faculty Registration & Login
+- View Received Feedback
+- Subject Management
+- Edit Faculty Profile
+- View Performance Dashboard
+
+### 👨‍💼 Admin Module
+- Admin Registration & Login
+- Manage Students
+- Manage Faculty Members
+- View Feedback Reports
+- Manage Subjects
+- Block/Unblock Users
+- View Contact Messages
+
+---
+
+## 🛠️ Technology Stack
+
+| Category | Technologies |
+|----------|--------------|
+| **Frontend** | HTML5, CSS3, Bootstrap 5, JavaScript |
+| **Backend** | Java, JSP, Servlets |
+| **Database** | MySQL |
+| **Server** | Apache Tomcat 10 |
+| **IDE** | Visual Studio Code |
+| **Version Control** | Git & GitHub |
+
+---
+
+## 📂 Project Structure
+
+```text
+SmartFeedbackSystem/
+│
+├── admin/                 # Admin Dashboard & Management Pages
+├── faculty/               # Faculty Module
+├── student/               # Student Module
+├── servlet/               # Java Servlets
+├── dao/                   # Database Access Objects
+├── db/                    # Database Connection
+├── model/                 # Java Model Classes
+├── css/                   # Stylesheets
+├── images/                # Project Images
+├── WEB-INF/               # Libraries & Configuration
+│
+├── index.jsp
+├── login.jsp
+├── signup.jsp
+├── role-select.jsp
+├── contact.jsp
+├── forgot-password.jsp
+├── verify-otp.jsp
+├── reset-password.jsp
+└── README.md
+```
+
+---
+
+## 🔐 Authentication & Security
+
+The application provides a secure authentication mechanism for all user roles.
+
+### Security Features
+
+- Role-Based Login System
+- Password Encryption Support
+- OTP-Based Password Recovery
+- Session Management
+- Anonymous Feedback Submission
+- Profile Management
+- Secure Database Connectivity
+
+---

@@ -1,16 +1,38 @@
-# Compiled Java classes
+# ==========================
+# Java
+# ==========================
 *.class
+*.war
+*.ear
 WEB-INF/classes/
 
-# VS Code
+# ==========================
+# IDE
+# ==========================
 .vscode/
-
-# Local history
 .history/
+.idea/
 
-# OS files
-.DS_Store
-Thumbs.db
-
+# ==========================
 # Logs
+# ==========================
 *.log
+
+# ==========================
+# Windows / Mac
+# ==========================
+Thumbs.db
+.DS_Store
+
+# ==========================
+# Temporary Files
+# ==========================
+*.tmp
+*.bak
+
+# ==========================
+# Build Output
+# ==========================
+bin/
+target/
+out/

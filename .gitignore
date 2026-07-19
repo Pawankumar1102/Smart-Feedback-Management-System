@@ -36,3 +36,10 @@ Thumbs.db
 bin/
 target/
 out/
+
+
+# Ignore uploaded profile images
+images/profile/
+
+# Keep logo
+!images/logo.png

@@ -72,22 +72,29 @@ The application also includes an OTP-based password recovery system, profile man
 | **Version Control** | Git & GitHub |
 
 ---
-
 ## 📂 Project Structure
 
 ```text
-SmartFeedbackSystem/
+SmartFeedbackManagementSystem/
 │
-├── admin/                 # Admin Dashboard & Management Pages
-├── faculty/               # Faculty Module
-├── student/               # Student Module
-├── servlet/               # Java Servlets
-├── dao/                   # Database Access Objects
-├── db/                    # Database Connection
-├── model/                 # Java Model Classes
-├── css/                   # Stylesheets
-├── images/                # Project Images
-├── WEB-INF/               # Libraries & Configuration
+├── admin/                  # Admin Module
+├── faculty/                # Faculty Module
+├── student/                # Student Module
+├── servlet/                # Java Servlet Controllers
+├── dao/                    # Database Access Objects (DAO)
+├── db/                     # Database Configuration
+├── model/                  # Java Model Classes
+├── css/                    # Stylesheets
+├── images/
+│   ├── logo.png            # Application Logo
+│   └── profile/            # User Uploaded Profile Images (Ignored by Git)
+├── database/
+│   ├── smart_feedback_system.sql
+│   └── README.md
+├── WEB-INF/
+│   ├── classes/
+│   ├── lib/
+│   └── web.xml
 │
 ├── index.jsp
 ├── login.jsp
@@ -97,9 +104,8 @@ SmartFeedbackSystem/
 ├── forgot-password.jsp
 ├── verify-otp.jsp
 ├── reset-password.jsp
-└── README.md
-```
-
+├── README.md
+└── .gitignore
 ---
 
 ## 🔐 Authentication & Security
@@ -189,35 +195,6 @@ http://localhost:8080/SmartFeedbackManagementSystem/
 4. Open the project in your browser.
 5. Register or log in as Student, Faculty, or Admin.
 6. Start using the Smart Feedback Management System.
-
----
-
-# 📁 Repository Structure
-
-```
-SmartFeedbackManagementSystem/
-│
-├── admin/
-├── css/
-├── dao/
-├── database/
-│   ├── README.md
-│   └── smart_feedback_system.sql
-├── db/
-├── faculty/
-├── images/
-│   └── logo.png
-├── model/
-├── servlet/
-├── student/
-├── WEB-INF/
-├── .gitignore
-├── README.md
-├── index.jsp
-├── login.jsp
-├── signup.jsp
-└── role-select.jsp
-```
 
 ---
 

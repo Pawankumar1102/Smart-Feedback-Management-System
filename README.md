@@ -117,3 +117,121 @@ The application provides a secure authentication mechanism for all user roles.
 - Secure Database Connectivity
 
 ---
+
+
+---
+
+# ⚙️ Installation Guide
+
+## Prerequisites
+
+Before running this project, make sure the following software is installed:
+
+- Java JDK 17 or above
+- Apache Tomcat 10
+- MySQL Server 8.0+
+- MySQL Workbench
+- Visual Studio Code (or any Java IDE)
+
+---
+
+## Installation Steps
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/Pawankumar1102/Smart-Feedback-Management-System.git
+```
+
+### 2. Copy the Project
+
+Move the project to your Apache Tomcat `webapps` directory or configure it in your preferred IDE.
+
+### 3. Import the Database
+
+- Open MySQL Workbench.
+- Create a database named `smart_feedback_system`.
+- Import the SQL file located in:
+
+```
+database/smart_feedback_system.sql
+```
+
+### 4. Configure Database Connection
+
+Update your MySQL credentials in the database configuration file.
+
+Example:
+
+- Host: `localhost`
+- Port: `3306`
+- Database: `smart_feedback_system`
+- Username: `root`
+- Password: `your_password`
+
+### 5. Start Apache Tomcat
+
+Run the Tomcat server and open your browser.
+
+### 6. Access the Application
+
+```
+http://localhost:8080/SmartFeedbackManagementSystem/
+```
+
+---
+
+# ▶️ How to Run the Project
+
+1. Start MySQL Server.
+2. Start Apache Tomcat.
+3. Import the provided database.
+4. Open the project in your browser.
+5. Register or log in as Student, Faculty, or Admin.
+6. Start using the Smart Feedback Management System.
+
+---
+
+# 📁 Repository Structure
+
+```
+SmartFeedbackManagementSystem/
+│
+├── admin/
+├── css/
+├── dao/
+├── database/
+│   ├── README.md
+│   └── smart_feedback_system.sql
+├── db/
+├── faculty/
+├── images/
+│   └── logo.png
+├── model/
+├── servlet/
+├── student/
+├── WEB-INF/
+├── .gitignore
+├── README.md
+├── index.jsp
+├── login.jsp
+├── signup.jsp
+└── role-select.jsp
+```
+
+---
+
+## 👨‍💻 Author
+
+**Pawan Mehta**
+
+Computer Science Engineering Graduate
+
+**GitHub:** [Pawankumar1102](https://github.com/Pawankumar1102)
+---
+
+# 📄 License
+
+This project is developed for educational and learning purposes.
+
+Feel free to explore, learn from, and modify the project for personal or academic use.

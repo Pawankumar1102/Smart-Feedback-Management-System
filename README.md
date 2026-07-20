@@ -184,7 +184,6 @@ Deploy the project to an Apache Tomcat server using your preferred development e
 
 The project can be deployed using any Apache Tomcat-supported development environment. Deployment steps may vary depending on the IDE or server configuration.
 
-
 ### 5. Run the Application
 
 Start Apache Tomcat and open:

@@ -127,21 +127,19 @@ The application provides a secure authentication mechanism for all user roles.
 
 ---
 
-# ⚙️ Installation Guide
+## ⚙️ Installation Guide
 
-## Prerequisites
+### Prerequisites
 
 Before running this project, make sure the following software is installed:
 
 - Java JDK 17 or above
-- Apache Tomcat 10
+- Apache Tomcat 10 or above
 - MySQL Server 8.0+
 - MySQL Workbench
-- Visual Studio Code (or any Java IDE)
+- Visual Studio Code or any Java IDE
 
 ---
-
-## Installation Steps
 
 ### 1. Clone the Repository
 
@@ -149,23 +147,22 @@ Before running this project, make sure the following software is installed:
 git clone https://github.com/Pawankumar1102/Smart-Feedback-Management-System.git
 ```
 
-### 2. Copy the Project
+---
 
-Move the project to your Apache Tomcat `webapps` directory or configure it in your preferred IDE.
+### 2. Import the Database
 
-### 3. Import the Database
-
-- Open MySQL Workbench.
-- Create a database named `smart_feedback_system`.
+- Create a database named **smart_feedback_system**.
 - Import the SQL file located in:
 
 ```
 database/smart_feedback_system.sql
 ```
 
-### 4. Configure Database Connection
+---
 
-Update your MySQL credentials in the database configuration file.
+### 3. Configure Database Connection
+
+Update your MySQL database credentials in the project configuration.
 
 Example:
 
@@ -175,28 +172,28 @@ Example:
 - Username: `root`
 - Password: `your_password`
 
-### 5. Start Apache Tomcat
+---
 
-Run the Tomcat server and open your browser.
+### 4. Deploy the Project
 
-### 6. Access the Application
+Deploy the project to an Apache Tomcat server using your preferred development environment (Visual Studio Code, Eclipse, IntelliJ IDEA, or by copying it to the Tomcat deployment directory).
+
+---
+
+## 📝 Note
+
+The project can be deployed using any Apache Tomcat-supported development environment. Deployment steps may vary depending on the IDE or server configuration.
+
+
+### 5. Run the Application
+
+Start Apache Tomcat and open:
 
 ```
 http://localhost:8080/SmartFeedbackManagementSystem/
 ```
 
----
 
-# ▶️ How to Run the Project
-
-1. Start MySQL Server.
-2. Start Apache Tomcat.
-3. Import the provided database.
-4. Open the project in your browser.
-5. Register or log in as Student, Faculty, or Admin.
-6. Start using the Smart Feedback Management System.
-
----
 
 ## 👨‍💻 Author
 

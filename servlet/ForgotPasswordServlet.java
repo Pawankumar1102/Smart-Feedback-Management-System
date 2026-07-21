@@ -1,4 +1,4 @@
-package SmartFeedbackSystem.servlet;
+package SmartFeedbackManagementSystem.servlet;
 
 import java.io.IOException;
 import java.sql.Connection;
@@ -7,7 +7,7 @@ import java.sql.ResultSet;
 import java.util.Properties;
 import java.util.Random;
 
-import SmartFeedbackSystem.db.DBConnection;
+import SmartFeedbackManagementSystem.db.DBConnection;
 
 import jakarta.mail.Authenticator;
 import jakarta.mail.Message;

@@ -1,10 +1,10 @@
-package SmartFeedbackSystem.dao;
+package SmartFeedbackManagementSystem.dao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 
-import SmartFeedbackSystem.db.DBConnection;
-import SmartFeedbackSystem.model.Faculty;
+import SmartFeedbackManagementSystem.db.DBConnection;
+import SmartFeedbackManagementSystem.model.Faculty;
 
 public class FacultyDAO {
 

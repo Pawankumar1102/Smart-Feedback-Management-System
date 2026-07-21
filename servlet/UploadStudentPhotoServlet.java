@@ -1,4 +1,4 @@
-package SmartFeedbackSystem.servlet;
+package SmartFeedbackManagementSystem.servlet;
 
 import java.io.File;
 import java.io.IOException;
@@ -6,7 +6,7 @@ import java.nio.file.Paths;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 
-import SmartFeedbackSystem.db.DBConnection;
+import SmartFeedbackManagementSystem.db.DBConnection;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.MultipartConfig;

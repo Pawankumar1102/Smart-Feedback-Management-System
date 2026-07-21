@@ -1,11 +1,11 @@
-package SmartFeedbackSystem.servlet;
+package SmartFeedbackManagementSystem.servlet;
 
 import java.io.File;
 import java.io.IOException;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 
-import SmartFeedbackSystem.db.DBConnection;
+import SmartFeedbackManagementSystem.db.DBConnection;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.MultipartConfig;
@@ -100,7 +100,7 @@ extends HttpServlet {
                         + filePart.getSubmittedFileName();
 
                 String uploadPath =
-                        "D:/apache-tomcat-10.1.54/webapps/SmartFeedbackSystem/images/profile";
+                        "D:/apache-tomcat-10.1.54/webapps/SmartFeedbackManagementSystem/images/profile";
 
                 File uploadDir =
                         new File(uploadPath);

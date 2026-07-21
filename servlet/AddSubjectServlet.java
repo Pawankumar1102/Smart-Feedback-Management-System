@@ -1,9 +1,9 @@
-package SmartFeedbackSystem.servlet;
+package SmartFeedbackManagementSystem.servlet;
 
 import java.io.IOException;
 
-import SmartFeedbackSystem.dao.SubjectDAO;
-import SmartFeedbackSystem.model.Subject;
+import SmartFeedbackManagementSystem.dao.SubjectDAO;
+import SmartFeedbackManagementSystem.model.Subject;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;

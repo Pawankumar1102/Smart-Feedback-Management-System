@@ -1,11 +1,11 @@
-package SmartFeedbackSystem.servlet;
+package SmartFeedbackManagementSystem.servlet;
 
 import java.io.IOException;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 
-import SmartFeedbackSystem.db.DBConnection;
+import SmartFeedbackManagementSystem.db.DBConnection;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;

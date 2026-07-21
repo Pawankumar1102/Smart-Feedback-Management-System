@@ -1,6 +1,6 @@
 <%@ page import="java.sql.*" %>
 
-<%@ page import="SmartFeedbackSystem.db.DBConnection" %>
+<%@ page import="SmartFeedbackManagementSystem.db.DBConnection" %>
 
 <%
 

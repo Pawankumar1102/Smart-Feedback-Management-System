@@ -1,4 +1,4 @@
-package SmartFeedbackSystem.model;
+package SmartFeedbackManagementSystem.model;
 
 public class Student {
 

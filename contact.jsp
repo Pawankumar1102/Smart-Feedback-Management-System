@@ -113,11 +113,11 @@ Need help regarding the feedback portal?
 
 </div>
 
-<div class="row g-5 align-items-center">
+<div class="row g-4 align-items-start">
 
 <!-- LEFT -->
 
-<div class="col-lg-4">
+<div class="col-12 col-xl-4">
 
 <div class="glass-card h-100">
 
@@ -169,7 +169,7 @@ Admin & Technical Team
 
 <!-- RIGHT FORM -->
 
-<div class="col-lg-8">
+<div class="col-12 col-xl-8">
 
 <div class="glass-card">
 
@@ -414,6 +414,8 @@ document.title,
 });
 
 </script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>

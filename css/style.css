@@ -1850,3 +1850,25 @@ margin-top:5px;
 font-weight:bold;
 
 }
+
+/* Contact Page Only */
+
+.contact-section .glass-card{
+    padding:40px;
+}
+
+@media (max-width:1200px){
+
+    .contact-section .glass-card{
+        padding:30px;
+    }
+
+}
+
+@media (max-width:768px){
+
+    .contact-section .glass-card{
+        padding:22px;
+    }
+
+}

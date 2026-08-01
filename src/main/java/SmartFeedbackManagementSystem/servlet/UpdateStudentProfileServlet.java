@@ -99,8 +99,10 @@ extends HttpServlet {
                         + "_"
                         + filePart.getSubmittedFileName();
 
+
                 String uploadPath =
-                        "D:/apache-tomcat-10.1.54/webapps/SmartFeedbackManagementSystem/images/profile";
+                        getServletContext()
+                        .getRealPath("/images/profile");
 
                 File uploadDir =
                         new File(uploadPath);

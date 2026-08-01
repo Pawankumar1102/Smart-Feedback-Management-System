@@ -1,0 +1,15 @@
+target/
+
+.classpath
+.project
+.settings/
+
+.idea/
+.vscode/
+
+.history/
+
+*.log
+*.tmp
+
+.env

@@ -1,0 +1,13 @@
+.git
+.github
+.idea
+.vscode
+.history
+
+target
+
+.env
+.env.*
+
+README.md
+docker-compose.yml

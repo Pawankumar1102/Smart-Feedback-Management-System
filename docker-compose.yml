@@ -1,0 +1,62 @@
+version: '3.9'
+
+services:
+
+  mysql:
+
+    image: mysql:8.0
+
+    container_name: mysql-db
+
+    restart: always
+
+    environment:
+
+      MYSQL_ROOT_PASSWORD: root123
+
+      MYSQL_DATABASE: smart_feedback_system
+
+    ports:
+
+      - "3307:3306"
+
+    volumes:
+
+      - mysql-data:/var/lib/mysql
+
+    networks:
+
+      - smart-feedback-network
+
+  app:
+
+    build: .
+
+    container_name: smart-feedback-container
+
+    restart: always
+
+    depends_on:
+
+      - mysql
+
+    ports:
+
+      - "8080:8080"
+
+    environment:
+      DB_URL: ${DB_URL}
+      DB_USER: ${DB_USER}
+      DB_PASSWORD: ${DB_PASSWORD}
+
+    networks:
+
+      - smart-feedback-network
+
+volumes:
+
+  mysql-data:
+
+networks:
+
+  smart-feedback-network:

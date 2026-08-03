@@ -124,38 +124,43 @@ The application is built using **Java Servlet, JSP, Maven, and MySQL**, containe
 
 ### 🏠 Home Page
 
-> *(Screenshot will be added here)*
+![Home Page](screenshots/home-page.png)
+
+---
+
+### 📞 Contact Page
+
+![Contact Page](screenshots/contact-page.png)
 
 ---
 
 ### 🔐 Login Page
 
-> *(Screenshot will be added here)*
-
----
-
-### 📝 Registration Page
-
-> *(Screenshot will be added here)*
+![Login Page](screenshots/login-page.png)
 
 ---
 
 ### 👨‍🎓 Student Dashboard
 
-> *(Screenshot will be added here)*
+![Student Dashboard](screenshots/student-dashboard.png)
 
 ---
 
 ### 👨‍🏫 Faculty Dashboard
 
-> *(Screenshot will be added here)*
+![Faculty Dashboard](screenshots/faculty-dashboard.png)
 
 ---
 
 ### 👨‍💼 Admin Dashboard
 
-> *(Screenshot will be added here)*
+![Admin Dashboard](screenshots/admin-dashboard.png)
 
+---
+
+### 📊 Admin Feedback Reports
+
+![Admin Feedback Reports](screenshots/admin-feedback-report.png)
 
 ## 🚀 Installation Guide
 
